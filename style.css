@@ -33,8 +33,10 @@ body {
  } */
 .mainContainer {
   border: solid black;
-  background-image: url("https://readysteadycut.com/wp-content/uploads/2022/12/2363A_0070_v0550.1080K.jpg");
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/hb_disneyplus_avatarthewayofwater_2048_672d5183.jpeg?region=0,0,2048,878");
   background-size: cover;
+  height: 550px;
+  font-size: 18px;
   /* max-width: 100%;
   max-height: 100%; */
   /* display: block;  */
@@ -42,24 +44,81 @@ body {
   /* background-repeat: no-repeat;
   image-rendering: crisp-edges;
   justify-content: center; */
-  
 }
+.avartarTxt {
+  width: 500px;
+}
+
 .littleContainer {
   /* height: 550px; */
   color: white;
   text-align: center;
   display: block;
+  /* margin-left: 200px; */
   margin-right: 800px;
-  margin-left: 200px;
-  margin-top: 200px;
-  border: solid red;
+  margin-top: 130px; 
+  /* line-height: inherit; */
+  font-family: 'Open Sans', sans-serif;  
+  /* border: solid red; */
+ 
+
 }
 .avatarTxt {
   height: 100px;
 }
  .Buttn{
   display: block;
+  border-radius: 25px;
+  height: 50px;
+  /* width: 200px; */
+  align-items: center;
+  background-color: transparent;
+  margin: auto;
   
-  
- }
+}
+.top {
+  background-color: skyblue;
+  border: none;
+  font-weight: bold;
+  width: 250px;
+  margin-bottom: 15px;
+}
 
+button + button {
+  color: white;
+  border: solid white;
+  /* margin-top: 40px; */
+  font-weight: bold;
+  width: 250px;
+ 
+} 
+
+.columnsContainer {
+  display: flex;
+  justify-content: center;
+
+}
+.columnsContainer .item {
+  margin: 10px;
+  border: solid black;
+  /* height: 250px; */
+  width: 250px;
+  text-align: center;
+  
+  
+}
+a {
+  color:black;
+  font-weight: bold;
+}
+
+.item img {
+  height: 250px;
+  width: 100%;
+  
+  
+}
+
+.dnewsContainer {
+  font-family: 'Open Sans', sans-serif; 
+}
