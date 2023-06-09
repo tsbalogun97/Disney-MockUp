@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  border: solid blue;
+  height: 50px;
+  
+}
+
+.disneyLogo {
+  height: 20px;
+  padding-left: 20px;
+}
+.searchLogo {
+  height: 20px;
+  margin-left: -85px;
+ }
+ input {
+  height: 40px;
+  width: 300px;
+  border: solid black;
+  border-radius: 5px;
+  }
+
+ /* input::placeholder {
+  color: black;
+  padding-left: 10px;
+ } */
+.mainContainer {
+  border: solid black;
+  background-image: url("https://readysteadycut.com/wp-content/uploads/2022/12/2363A_0070_v0550.1080K.jpg");
+  background-size: cover;
+  /* max-width: 100%;
+  max-height: 100%; */
+  /* display: block;  */
+  /* remove extra space below image */
+  /* background-repeat: no-repeat;
+  image-rendering: crisp-edges;
+  justify-content: center; */
+  
+}
+.littleContainer {
+  /* height: 550px; */
+  color: white;
+  text-align: center;
+  display: block;
+  margin-right: 800px;
+  margin-left: 200px;
+  margin-top: 200px;
+  border: solid red;
+}
+.avatarTxt {
+  height: 100px;
+}
+ .Buttn{
+  display: block;
+  
+  
+ }
+
